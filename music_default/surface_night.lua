@@ -4,7 +4,7 @@ if minetest.get_modpath("music_dfcaverns") then
 end
 
 local ymax = tonumber(minetest.settings:get("music_default_surface_ymax")) or 31000
-local ymin = tonumber(minetest.settings:get("music_default_surface_ymin"))or min_default
+local ymin = tonumber(minetest.settings:get("music_default_surface_ymin")) or min_default
 
 music.register_track({
     name = "anguish",
